@@ -146,10 +146,10 @@ button{
     margin-left: 50px;
     margin-bottom: 70px;
     margin-right: 50px;
-     background-color:#fdd7cd;
+    background-color:#fdd7cd;
 }
 .card-data .circle-data{
-      border-radius: 50%;
+    border-radius: 50%;
     margin-top: 70px;
     margin-left: 50px;
     margin-bottom: 70px;
@@ -157,7 +157,7 @@ button{
      background-color:#fff3d8;
 }
 .card-data .circle-secured{
-     border-radius: 50%;
+    border-radius: 50%;
     margin-top: 70px;
     margin-left: 50px;
     margin-bottom: 70px;
@@ -166,7 +166,7 @@ button{
     
 }
 .card-data .circle-support{
-     border-radius: 50%;
+    border-radius: 50%;
     margin-top: 70px;
     margin-left: 50px;
     margin-bottom: 70px;
@@ -220,4 +220,83 @@ box-shadow: 5px 10px 10px rgba(105, 105, 105, 1);
 .active h5{
     color: #fff;
 
+}
+
+@media screen and (min-width: 412px) and (max-width: 914px){
+    .logo{
+        width: 30%;
+    }
+    .nav-list{
+        display: none;
+    }
+
+    .main{
+        height: auto;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-image{
+        display: none;
+    }
+
+    .content-left{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+
+    .content-left h1{
+        font-size: 40px;
+    }
+
+    .content-left p{
+        margin-bottom: 30px;
+    }
+
+    .logo img{
+        width: 30%;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .saas-img{
+        display: none;
+    }
+
+    .end h3{
+        text-align: left;
+        font-size: 30px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    .card{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-data{
+        margin-bottom: 50px;
+    }
+
+    .card-data .circle{
+        border-radius: 40%;
+    }
+
+    .card-data img{
+        width: 90px;
+        margin-left: 45px;
+    }
 }
